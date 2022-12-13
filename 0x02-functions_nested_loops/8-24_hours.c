@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * jack_bauer - Prints the minutes of a day
  *
@@ -15,6 +16,7 @@ void jack_bauer(void)
 			for (c = 48; c <= 53; c++)
 			{
 				for (d = 48; d <= 57; d++)
+				{
 					if (a >= 50 && b >= 52)
 						break;
 				_putchar(a);
@@ -23,6 +25,7 @@ void jack_bauer(void)
 				_putchar(c);
 				_putchar(d);
 				_putchar('\n');
+				}
 			}
 		}
 	}
