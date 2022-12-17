@@ -21,4 +21,5 @@ int main(void)
 		putchar(start == end ? '\n' : ' ');
 		start++;
 	}
+	return (0);
 }
