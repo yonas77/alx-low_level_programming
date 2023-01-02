@@ -22,7 +22,7 @@ char *_strpbrk(char *s, char *accept)
 		}
 		if (*(accept + j) != '\0')
 		{
-			return (s + j);
+			return (s + i);
 		}
 	}
 	return (0);
