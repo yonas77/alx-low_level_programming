@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * main - Program that adds poditive numbers
+ * main - Program that adds positive numbers
  * @argc: This is the argument count
  * @argv: This is the argument vector
  *
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 			char *str;
 
 			str = argv[i];
-			for (b - 0; str[b] != '\0'; b++)
+			for (b = 0; str[b] != '\0'; b++)
 			{
 				if (str[b] < 48 || str[b] > 57)
 				{
