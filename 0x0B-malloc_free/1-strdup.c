@@ -10,7 +10,7 @@
  * pointer to duplicated string on success.
  * NULL if memory was insufficient.
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *nstr;
 	unsigned int len, i;
